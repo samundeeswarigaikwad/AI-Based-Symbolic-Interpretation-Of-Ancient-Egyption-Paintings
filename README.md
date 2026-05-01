@@ -5,6 +5,9 @@
 A Streamlit web application combining YOLOv8 deep learning with an Egyptological knowledge base to detect, analyze, and interpret Egyptian hieroglyphic symbols in images with archaeological context.
 
 ---
+## 🚀 Demo
+
+![Output](images/demo.jpeg)
 
 ## ✨ Features
 
