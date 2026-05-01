@@ -31,10 +31,9 @@ A Streamlit web application combining YOLOv8 deep learning with an Egyptological
 
 ## 🖼️ Sample Images
 
-You can use the images in the `Media/` folder to test the application.
+Sample images are available in the `Media/` folder.
 
-- Upload these images in the **🖼️ Analyze** section
-- They contain clearly visible Egyptian symbols for testing
+You can upload these images in the **Analyze** section of the app to test symbol detection and interpretation.
 
 ## 📊 Dataset
 
