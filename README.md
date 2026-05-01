@@ -1,14 +1,26 @@
-# 𓂀 Egyptian Symbol Interpreter
+# 𓂀 AI-based Symbolic Interpretation Of Ancient Egyptian Paintings
 
-**AI-based Symbolic Interpretation Of Ancient Egyptian Paintings.**
+**Detects and interprets Egyptian hieroglyphic symbols using YOLOv8 and a knowledge-based reasoning system.**
 
 A Streamlit web application combining YOLOv8 deep learning with an Egyptological knowledge base to detect, analyze, and interpret Egyptian hieroglyphic symbols in images with archaeological context.
 
 ---
 ## 🚀 Demo
 
-![Output](images/demo.jpeg)
-![Output](images/result.jpeg)
+<p align="center">
+  <img src="images/demo.jpeg" width="500"/>
+  <img src="images/result.jpeg" width="500"/>
+</p>
+
+## 🛠️ Tech Stack
+
+- Python
+- YOLOv8 (Ultralytics)
+- Streamlit
+- MongoDB
+- OpenCV
+- Plotly
+- ReportLab
 
 ## ✨ Features
 
@@ -18,6 +30,14 @@ A Streamlit web application combining YOLOv8 deep learning with an Egyptological
 - Symbol frequency visualization
 - Automatic annotated image generation
 - CSV and PDF export options
+
+## 📊 Dataset
+
+- Original dataset: **176 classes**
+- Refined dataset: **114 classes**
+- Removed low-sample classes
+- Merged visually similar symbols
+- Improved class balance and detection performance
 
 ### 📷 Live Camera Capture
 - Real-time webcam symbol detection
