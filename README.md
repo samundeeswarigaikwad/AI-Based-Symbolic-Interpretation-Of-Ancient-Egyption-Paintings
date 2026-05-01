@@ -1,8 +1,15 @@
 # 𓂀 AI-based Symbolic Interpretation Of Ancient Egyptian Paintings
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9+-blue"/>
+  <img src="https://img.shields.io/badge/YOLOv8-Ultralytics-orange"/>
+  <img src="https://img.shields.io/badge/Streamlit-App-red"/>
+  <img src="https://img.shields.io/badge/Status-Active-success"/>
+</p>
+
 **Detects and interprets Egyptian hieroglyphic symbols using YOLOv8 and a knowledge-based reasoning system.**
 
-A Streamlit web application combining YOLOv8 deep learning with an Egyptological knowledge base to detect, analyze, and interpret Egyptian hieroglyphic symbols in images with archaeological context.
+A Streamlit-based web application that combines YOLOv8 object detection with a knowledge-based reasoning system to detect and interpret Egyptian hieroglyphic symbols from images.
 
 ---
 ## 🚀 Demo
@@ -82,7 +89,7 @@ The final model (**YOLOv8l, 100 epochs**) was selected based on better performan
 **Final model used:** `best.pt`  
 **Alternative model(s):** `best1.pt`
 
-## 📈 Model Performance
+## 📊 Model Performance
 
 The final YOLOv8l model achieved:
 
@@ -174,8 +181,8 @@ The app will open at `http://localhost:8501` in your browser.
 5. **Click "🔱 Interpret this capture"** for full interpretation
 6. **Track session**:
    - See accumulated detections across frames
-   - Click "🔱 Interpret session"** for batch interpretation
-   - Click "🗑 Clear session"** to reset
+   - Click "🔱 Interpret session" for batch interpretation
+   - Click "🗑 Clear session" to reset
 
 ### Viewing History
 
