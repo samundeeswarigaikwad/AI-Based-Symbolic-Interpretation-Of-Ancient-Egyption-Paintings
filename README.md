@@ -8,6 +8,7 @@ A Streamlit web application combining YOLOv8 deep learning with an Egyptological
 ## 🚀 Demo
 
 ![Output](images/demo.jpeg)
+![Output](images/result.jpeg)
 
 ## ✨ Features
 
