@@ -31,6 +31,13 @@ A Streamlit web application combining YOLOv8 deep learning with an Egyptological
 - Automatic annotated image generation
 - CSV and PDF export options
 
+## 🖼️ Sample Images
+
+You can use the images in the `Media/` folder to test the application.
+
+- Upload these images in the **🖼️ Analyze** section
+- They contain clearly visible Egyptian symbols for testing
+
 ## 📊 Dataset
 
 - Original dataset: **176 classes**
@@ -267,7 +274,7 @@ SymbolicInterpretationOfAncientEgyptPaintings/
 
 ## 🔧 Core Components
 
-### `streamlitapp.py` (Main App)
+### `app.py` (Main App)
 **UI layer** – Streamlit interface with tabs for analysis, capture, history, and dashboard.
 
 **Key features:**
