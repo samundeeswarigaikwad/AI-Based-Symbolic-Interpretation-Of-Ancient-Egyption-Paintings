@@ -579,9 +579,11 @@ This project is licensed under the MIT License.
 
 ## 👥 Authors & Credits
 
-- **Project**: AI-Based Symbolic Interpretation of Ancient Egyptian Paintings
-- **Timeline**: March – May 2026
-- **Built with**: YOLOv8, Streamlit, MongoDB, ReportLab
+**Developed by:** Samundeeswari AG  
+
+- AI-Based Symbolic Interpretation of Ancient Egyptian Paintings  
+- March – May 2026  
+- Built using YOLOv8, Streamlit, MongoDB, and ReportLab
 
 ### References
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
