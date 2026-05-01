@@ -1,0 +1,5 @@
+streamlit
+pymongo
+ultralytics
+opencv-python
+reportlab
