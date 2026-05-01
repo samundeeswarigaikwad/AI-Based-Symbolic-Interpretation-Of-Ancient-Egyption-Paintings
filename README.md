@@ -29,6 +29,32 @@ A Streamlit web application combining YOLOv8 deep learning with an Egyptological
 - Automatic annotated image generation
 - CSV and PDF export options
 
+### 📷 Live Camera Capture
+- Real-time webcam symbol detection
+- Frame-by-frame analysis with session memory
+- Batch interpretation of multiple captures
+- Symbol accumulation across captures
+
+### 📊 Analytics Dashboard
+- Historical detection insights
+- Top symbols by frequency
+- Average confidence tracking
+- 7-day detection timeline
+- Symbol distribution charts
+
+### 📖 Symbol Dictionary
+- Searchable database of 114+ Egyptian symbols
+- Egyptological meanings and cultural significance
+- Quick lookup and symbol details
+
+### 💾 History & Persistence
+- Automatic detection record storage (MongoDB)
+- Per-record PDF report generation
+- Delete and manage past analyses
+- Timestamped records with IST timezone support
+
+---
+
 ## 🖼️ Sample Images
 
 Sample images are available in the `Media/` folder.
@@ -65,31 +91,9 @@ The final YOLOv8l model achieved:
 - mAP@0.50: 70.24%
 - F1 Score: 69.05%
 
-### 📷 Live Camera Capture
-- Real-time webcam symbol detection
-- Frame-by-frame analysis with session memory
-- Batch interpretation of multiple captures
-- Symbol accumulation across captures
+## 📈 Training Results
 
-### 📊 Analytics Dashboard
-- Historical detection insights
-- Top symbols by frequency
-- Average confidence tracking
-- 7-day detection timeline
-- Symbol distribution charts
-
-### 📖 Symbol Dictionary
-- Searchable database of 114+ Egyptian symbols
-- Egyptological meanings and cultural significance
-- Quick lookup and symbol details
-
-### 💾 History & Persistence
-- Automatic detection record storage (MongoDB)
-- Per-record PDF report generation
-- Delete and manage past analyses
-- Timestamped records with IST timezone support
-
----
+![Performance](images/performance.png)
 
 ## 🚀 Quick Start
 
