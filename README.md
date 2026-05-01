@@ -43,6 +43,28 @@ You can upload these images in the **Analyze** section of the app to test symbol
 - Merged visually similar symbols
 - Improved class balance and detection performance
 
+## 🧠 Model Training & Selection
+
+Multiple YOLOv8 models were trained and evaluated during development:
+
+- YOLOv8s
+- YOLOv8l (50 epochs)
+- YOLOv8l (100 epochs)
+
+The final model (**YOLOv8l, 100 epochs**) was selected based on better performance and stability in detecting complex Egyptian symbols.
+
+**Final model used:** `best.pt`  
+**Alternative model(s):** `best1.pt`
+
+## 📈 Model Performance
+
+The final YOLOv8l model achieved:
+
+- Precision: 74.46%
+- Recall: 64.38%
+- mAP@0.50: 70.24%
+- F1 Score: 69.05%
+
 ### 📷 Live Camera Capture
 - Real-time webcam symbol detection
 - Frame-by-frame analysis with session memory
