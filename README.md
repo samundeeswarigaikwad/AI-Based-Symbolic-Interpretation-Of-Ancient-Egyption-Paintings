@@ -219,9 +219,7 @@ export MONGO_URI=mongodb://localhost:27017/
 ```
 SymbolicInterpretationOfAncientEgyptPaintings/
 │
-├── streamlitapp.py              # Main Streamlit application ⭐
-├── app.py                       # Flask backend (alternative)
-├── streamlitappfinal.py         # Extended Streamlit variant
+├── app.py                       # Main Streamlit application ⭐                  
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # This file
 │
@@ -236,25 +234,11 @@ SymbolicInterpretationOfAncientEgyptPaintings/
 ├── Weights/
 │   ├── best.pt                  # Production YOLO model
 │   ├── best1.pt                 # Alternative models
-│   └── best2.pt
 │
 ├── static/
 │   ├── uploads/                 # Uploaded images
 │   ├── detections/              # Annotated output images
-│   ├── css/style.css
-│   └── js/camera.js, theme.js
-│
-├── templates/                   # Flask HTML templates
-│   ├── home.html
-│   ├── analyze.html
-│   ├── dashboard.html
-│   ├── history.html
-│   └── ...
-│
-├── datasetinfo/
-│   ├── best.pt                  # Training model reference
-│   ├── last.pt
-│   └── results.csv
+|
 │
 └── Media/                       # Demo images (optional)
 ```
@@ -426,7 +410,7 @@ Install all: `pip install -r requirements.txt`
 
 **Solution**: Run with `-m streamlit`:
 ```bash
-python -m streamlit run streamlitapp.py
+python -m streamlit run app.py
 ```
 
 ### Camera Not Working
@@ -546,7 +530,7 @@ This project is licensed under the MIT License.
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 - [Streamlit Documentation](https://docs.streamlit.io)
 - [MongoDB Python Driver](https://pymongo.readthedocs.io)
-- Egyptian Hieroglyphic Symbol Database: [Your Sources]
+- [Egyptian Hieroglyphic Symbol Database (Roboflow)](https://universe.roboflow.com/matthew-custer-bclqa/cota_coco)
 
 ---
 
