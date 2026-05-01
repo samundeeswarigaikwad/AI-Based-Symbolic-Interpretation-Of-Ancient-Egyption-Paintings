@@ -23,7 +23,6 @@ ENV/
 
 # Dataset / large files
 datasetinfo/
-Media/
 
 # Build / test artifacts
 .coverage
